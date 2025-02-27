@@ -32,4 +32,21 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat file1.txt
 Hello,This is a test file for LinuxAssignment. 
 vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % echo "Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt" > file1.txt
 
+c) Directory Management: a. Create a new directory named "docs" inside the "LinuxAssignment" directory.
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cd ~/LinuxAssignment
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % pwd
+
+/Users/vaishnavikulkarni/LinuxAssignment vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % mkdir docs
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -l
+
+total 8 drwxr-xr-x 2 vaishnavikulkarni staff 64 Feb 27 12:35 docs -rw-r--r-- 1 vaishnavikulkarni staff 88 Feb 27 12:29 file1.txt 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -ld docs
+
+drwxr-xr-x 2 vaishnavikulkarni staff 64 Feb 27 12:35 docs
+
+
+
 
