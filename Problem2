@@ -118,5 +118,51 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat output.txt
 
 IN GREEK MYTHOLOGY, LILIES WERE ASSOCIATED WITH HERA, THE QUEEN OF GODS..
 
+f. In a file named "duplicate.txt," there are several lines of text, some of which are  duplicates. Use a command to display only the unique lines from "duplicate.txt."  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % nano duplicate.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % nano duplicate.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat duplicate.txt 
+1. India has a rich and ancient heritage.
+2. It celebrates many festivals like Diwali and Holi.
+3. People speak different languages across regions.
+4. Traditional clothing includes sarees and kurtas.
+5. Indian food is full of spices and flavors.
+6. Yoga and Ayurveda originated in India.
+7. Respect for elders is an important tradition.
+8. Bollywood is famous for its vibrant movies.
+9. India has beautiful temples and monuments.
+10. The culture promotes unity in diversity.
+7. Respect for elders is an important tradition.
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % sort duplicate.txt | uniq
+
+1. India has a rich and ancient heritage.
+10. The culture promotes unity in diversity.
+2. It celebrates many festivals like Diwali and Holi.
+3. People speak different languages across regions.
+4. Traditional clothing includes sarees and kurtas.
+5. Indian food is full of spices and flavors.
+6. Yoga and Ayurveda originated in India.
+7. Respect for elders is an important tradition.
+8. Bollywood is famous for its vibrant movies.
+9. India has beautiful temples and monuments.
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % sort duplicate.txt | uniq > unique.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat unique.txt
+
+1. India has a rich and ancient heritage.
+10. The culture promotes unity in diversity.
+2. It celebrates many festivals like Diwali and Holi.
+3. People speak different languages across regions.
+4. Traditional clothing includes sarees and kurtas.
+5. Indian food is full of spices and flavors.
+6. Yoga and Ayurveda originated in India.
+7. Respect for elders is an important tradition.
+8. Bollywood is famous for its vibrant movies.
+9. India has beautiful temples and monuments.
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % 
+
+
 
 
