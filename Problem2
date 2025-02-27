@@ -95,4 +95,28 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % tail -n 3 numbers.txt
 19 Lilies symbolize purity, renewal, and devotion.
 20 They are widely used in weddings, funerals, and religious ceremonies.
 
+e. Imagine you have a file named "input.txt" with text content. Use a command to translate 
+all lowercase letters to uppercase in "input.txt" and save the modified text in a new file  named "output.txt."  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % touch input.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % ls -s
+total 16
+0 Desktop		0 Downloads		0 LinuxAssignment	0 Music			0 Public		0 input.txt
+0 Documents		0 Library		0 Movies		0 Pictures		8 data.txt		8 numbers.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % echo "This is a sample text file with lowercase letters." > input.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat input.txt | tr 'a-z' 'A-Z' > output.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat output.txt
+
+THIS IS A SAMPLE TEXT FILE WITH LOWERCASE LETTERS.
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % echo "In Greek mythology, lilies were associated with Hera, the queen of gods.." > input.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat input.txt | tr 'a-z' 'A-Z' > output.txt                                                 
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat output.txt                                                                              
+
+IN GREEK MYTHOLOGY, LILIES WERE ASSOCIATED WITH HERA, THE QUEEN OF GODS..
+
+
 
