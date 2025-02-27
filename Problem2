@@ -163,6 +163,45 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat unique.txt
 9. India has beautiful temples and monuments.
 vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % 
 
+g. In a file named "fruit.txt," there is a list of fruits, but some fruits are repeated. Use a  command to display each unique fruit along with the count of its occurrences in  "fruit.txt."  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % ls -l fruit.txt
+
+-rw-r--r--  1 vaishnavikulkarni  staff  0 Feb 27 17:47 fruit.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat fruit.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat > fruit.txt <<EOF
+apple
+banana
+apple
+orange
+banana
+grape
+grape
+apple
+orange
+apple
+EOF
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat fruit.txt
+
+apple
+banana
+apple
+orange
+banana
+grape
+grape
+apple
+orange
+apple
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % sort fruit.txt | uniq -c
+
+   4 apple
+   2 banana
+   2 grape
+   2 orange
+
 
 
 
