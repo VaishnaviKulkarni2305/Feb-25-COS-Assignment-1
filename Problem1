@@ -103,6 +103,36 @@ root wheel 11 Nov 15 10:29 tmp -> private/tmp drwxr-xr-x@ 11 root wheel 352 Nov 
 private/var 
 vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment %
 
+g) File Searching: 
+a. Search for all files with the extension ".txt" in the current directory and its subdirectories. 
+b. Display lines containing a specific word in a file (provide a file name and the specific word to search).
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % find . -type f -name "*.txt"
+
+./file1.txt
+./docs/file2.txt
+./extracted_docs/docs/file2.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % grep "Hello" file-name.txt
+
+grep: file-name.txt: No such file or directory
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % grep "Hello" file1.txt    
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % grep --color "Hello" file1.txt
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % grep "Hello" *.txt
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % grep -r "Hello" .
+
+./file1.txt:Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+./docs/file2.txt:Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+./extracted_docs/docs/file2.txt:Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % 
+
+
+
 
 
 
