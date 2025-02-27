@@ -1,1 +1,27 @@
 Problem 2: Read the instructions carefully and answer accordingly. If there is  any need to insert some data then do that as well.  
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cd
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % head -n 10 data.txt
+
+head: data.txt: No such file or directory
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % ls -l
+
+total 0
+drwx------+ 17 vaishnavikulkarni  staff   544 Feb 27 13:55 Desktop
+drwx------+  6 vaishnavikulkarni  staff   192 Feb 27 09:13 Documents
+drwx------+ 20 vaishnavikulkarni  staff   640 Feb 27 13:56 Downloads
+drwx------@ 97 vaishnavikulkarni  staff  3104 Feb 24 17:45 Library
+drwxr-xr-x   6 vaishnavikulkarni  staff   192 Feb 27 13:54 LinuxAssignment
+drwx------   4 vaishnavikulkarni  staff   128 Nov 29 16:24 Movies
+drwx------+  4 vaishnavikulkarni  staff   128 Nov 29 16:18 Music
+drwx------+  4 vaishnavikulkarni  staff   128 Nov 27 15:29 Pictures
+drwxr-xr-x+  4 vaishnavikulkarni  staff   128 Nov 27 15:27 Public
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % touch data.txt 
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % ls -s
+total 0
+0 Desktop		0 LinuxAssignment	0 Public
+0 Documents		0 Movies		0 data.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % echo -e "Hello, My Name is Vaishnavi Kulkarni/I am writing this paragraph to tell you about a very good book names as Draupadi/This book is written by Vamshi Krishna/he is my favorite writer/His other books such as Zero Not Out are also really good./Vamshi krishna has relly fresh way of writing/He is a engineer by profession and writter by choice./In this book of Draupadi he gives us Draupadi perspective in a really different way./She was a Princess of King Drupad./Then she become a Queen of Indrapasth and then Hasitnapur."> data.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % head -n 10 data.txt
+
+Hello, My Name is Vaishnavi Kulkarni/I am writing this paragraph to tell you about a very good book names as Draupadi/This book is written by Vamshi Krishna/he is my favorite writer/His other books such as Zero Not Out are also really good./Vamshi krishna has relly fresh way of writing/He is a engineer by profession and writter by choice./In this book of Draupadi he gives us Draupadi perspective in a really different way./She was a Princess of King Drupad./Then she become a Queen of Indrapasth and then Hasitnapur.
