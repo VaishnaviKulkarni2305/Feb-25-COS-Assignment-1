@@ -16,3 +16,20 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % LinuxAssignment zsh: command not fo
 vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % mkdir LinuxAssignment 
 vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cd LinuxAssignment 
 vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % pwd /Users/vaishnavikulkarni/LinuxAssignment
+
+b) File Management: a. Inside the "LinuxAssignment" directory, create a new file named "file1.txt". Display its contents.
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % touch file1.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -l
+
+total 0 -rw-r--r-- 1 vaishnavikulkarni staff 0 Feb 27 12:25 file1.txt 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat file1.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % echo "Hello,This is a test file for LinuxAssignment." > file1.txt
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat file1.txt
+
+Hello,This is a test file for LinuxAssignment. 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % echo "Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt" > file1.txt
+
+
