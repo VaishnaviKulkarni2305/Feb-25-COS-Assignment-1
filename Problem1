@@ -216,6 +216,23 @@ mkdir: extracted_docs: File exists
 vaishnavikulkarni@Vaishnavis-MacBook-Air unzip docs.zip -d extracted_docs
   extracting: extracted_docs/docs/file2.txt
 
+k) File Editing: 
+a. Open the "file1.txt" file in a text editor and add some text to it.  
+b. Replace a specific word in the "file1.txt" file with another word (provide the original  word and the word to replace it with). 
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % nano file1.txt
+
+(vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat file1.txt
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt This is a new text file that i have just created.
+
+[vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % sed -i 's/names/named/g' file1.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat file1.txt
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment named as file1.txt
+
+This is a new text file that i have just created.
 
 
 
