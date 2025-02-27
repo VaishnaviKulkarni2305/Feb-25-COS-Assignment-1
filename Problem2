@@ -25,3 +25,14 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % echo -e "Hello, My Name is Vaishnav
 vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % head -n 10 data.txt
 
 Hello, My Name is Vaishnavi Kulkarni/I am writing this paragraph to tell you about a very good book names as Draupadi/This book is written by Vamshi Krishna/he is my favorite writer/His other books such as Zero Not Out are also really good./Vamshi krishna has relly fresh way of writing/He is a engineer by profession and writter by choice./In this book of Draupadi he gives us Draupadi perspective in a really different way./She was a Princess of King Drupad./Then she become a Queen of Indrapasth and then Hasitnapur.
+
+b. Now, to check the end of the file for any recent additions, display the last 5 lines of  "data.txt" using another command.  
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % tail -n 5 data.txt
+
+Hello, My Name is Vaishnavi Kulkarni/I am writing this paragraph to tell you about a very good book names as Draupadi/
+This book is written by Vamshi Krishna/
+he is my favorite writer/His other books such as Zero Not Out are also really good./
+Vamshi krishna has relly fresh way of writing/He is a engineer by profession and writter by choice./
+In this book of Draupadi he gives us Draupadi perspective in a really different way./
+She was a Princess of King Drupad./Then she become a Queen of Indrapasth and then Hasitnapur.
+
