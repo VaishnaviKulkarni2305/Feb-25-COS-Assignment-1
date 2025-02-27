@@ -47,6 +47,25 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -ld docs
 
 drwxr-xr-x 2 vaishnavikulkarni staff 64 Feb 27 12:35 docs
 
+d) Copy and Move Files: a. Copy the "file1.txt" file into the "docs" directory and rename it to "file2.txt".
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cd ~/LinuxAssignment
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % pwd
+
+/Users/vaishnavikulkarni/LinuxAssignment 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cp file1.txt docs/file2.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -l docs
+
+total 8 -rw-r--r-- 1 vaishnavikulkarni staff 88 Feb 27 12:40 file2.txt 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat docs/file2.txt
+
+Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment %
+
+
+
 
 
 
