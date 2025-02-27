@@ -36,3 +36,48 @@ Vamshi krishna has relly fresh way of writing/He is a engineer by profession and
 In this book of Draupadi he gives us Draupadi perspective in a really different way./
 She was a Princess of King Drupad./Then she become a Queen of Indrapasth and then Hasitnapur.
 
+c. In a file named "numbers.txt," there are a series of numbers. Display the first 15 lines of  this file to analyze the initial data set.  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % seq 1 20 > numbers.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % head -n 15 numbers.txt
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat numbers.txt
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
