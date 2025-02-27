@@ -80,6 +80,28 @@ sed -i '' 's/oldword/newword/g' file1.txt
 Problem 2: Text Processing and File Handling
 
 a) Display the First 10 Lines of data.txt
+head -10 data.txt
+
+b) Display the Last 5 Lines of data.txt
+tail -5 data.txt
+
+c) Display the First 15 Lines of numbers.txt
+head -15 numbers.txt
+
+d) Display the Last 3 Lines of numbers.txt
+tail -3 numbers.txt
+
+e) Convert Lowercase to Uppercase in input.txt and Save to output.txt
+tr 'a-z' 'A-Z' < input.txt > output.txt
+
+f) Display Unique Lines in duplicate.txt
+sort duplicate.txt | uniq
+
+g) Count Unique Fruits in fruit.txt
+sort fruit.txt | uniq -c
+
+
+
 
 
 
