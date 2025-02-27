@@ -1,1 +1,18 @@
-Problem 1: Read the instructions carefully and answer accordingly. If there is  any need to insert some data then do that as well.  
+Problem 1: Read the instructions carefully and answer accordingly. If there is  any need to insert some data then do that as well.
+
+a. Start by navigating to your home directory and list its contents. Then, move into a directory named "LinuxAssignment" if it exists; otherwise, create it.
+Last login: Thu Feb 27 09:01:10 on console vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cd ~
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % ls -l total 0 drwx------+ 5 
+vaishnavikulkarni staff 160 Feb 14 17:27 Desktop drwx------+ 6 
+vaishnavikulkarni staff 192 Feb 27 09:13 Documents drwx------+ 19 
+vaishnavikulkarni staff 608 Feb 27 09:58 Downloads drwx------@ 97 
+vaishnavikulkarni staff 3104 Feb 24 17:45 Library drwx------ 4 
+vaishnavikulkarni staff 128 Nov 29 16:24 Movies drwx------+ 4 
+vaishnavikulkarni staff 128 Nov 29 16:18 Music drwx------+ 4 
+vaishnavikulkarni staff 128 Nov 27 15:29 Pictures drwxr-xr-x+ 4 
+vaishnavikulkarni staff 128 Nov 27 15:27 Public 
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % LinuxAssignment zsh: command not found: LinuxAssignment 
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % mkdir LinuxAssignment 
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cd LinuxAssignment 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % pwd /Users/vaishnavikulkarni/LinuxAssignment
