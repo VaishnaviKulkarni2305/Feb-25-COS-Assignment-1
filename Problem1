@@ -64,6 +64,19 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cat docs/file2.txt
 Hello, I am Vaishnavi Kulkarni, This is anew file in LinuxAssignment names as file1.txt 
 vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment %
 
+e) Permissions and Ownership: a. Change the permissions of "file2.txt" to allow read, write, and 
+execute permissions for the owner and only read permissions for others.
+Then, change the owner of "file2.txt" to the current user.
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % cd ~/LinuxAssignment
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % chmod u=rwx,g=r,o=r docs/file2.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % ls -l docs/file2.txt
+
+-rwxr--r-- 1 vaishnavikulkarni staff 88 Feb 27 12:40 docs/file2.txt 
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment %
+
 
 
 
