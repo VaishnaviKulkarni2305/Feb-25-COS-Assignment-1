@@ -201,6 +201,23 @@ PING google.com (142.250.183.46): 56 data bytes
 4 packets transmitted, 4 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 16.779/18.698/23.647/2.862 ms
 
+j) File Compression: 
+a. Compress the "docs" directory into a zip file.  
+b. Extract the contents of the zip file into a new directory.  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % zip -r docs.zip docs
+
+  adding: docs/ (stored 0%)
+  adding: docs/file2.txt (deflated 10%)
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air LinuxAssignment % mkdir extracted_docs
+
+mkdir: extracted_docs: File exists
+vaishnavikulkarni@Vaishnavis-MacBook-Air unzip docs.zip -d extracted_docs
+  extracting: extracted_docs/docs/file2.txt
+
+
+
 
 
 
