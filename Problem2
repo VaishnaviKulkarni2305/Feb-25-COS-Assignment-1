@@ -80,4 +80,19 @@ vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % cat numbers.txt
 19
 20
 
+d. To focus on the last few numbers of the dataset, display the last 3 lines of "numbers.txt".  
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % tail -n 3 numbers.txt
+
+18
+19
+20
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % nano numbers.txt
+
+vaishnavikulkarni@Vaishnavis-MacBook-Air ~ % tail -n 3 numbers.txt
+
+18 The most famous types include the Easter lily, Tiger lily, and Asiatic lily.
+19 Lilies symbolize purity, renewal, and devotion.
+20 They are widely used in weddings, funerals, and religious ceremonies.
+
 
